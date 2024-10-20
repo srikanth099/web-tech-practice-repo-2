@@ -1,0 +1,84 @@
+<!----------------------------------------Responsive webpage---------------------------------->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rsponsiv </title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: #226ca4;
+            padding:30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        section{
+            display: -webkit-flex;
+            display: flex;
+        }
+        nav{
+          -webkit-flex: 1;
+          -ms-flex:1;
+          flex: 1;
+          background-color: #0485e8;
+          padding:20px;
+          color:white;
+        }
+        nav ul{
+            list-style-type: none;
+            padding:0;
+        }
+        article{
+            -webkit-flex:3;
+            -ms-flex:3;
+            flex:3;
+
+        }
+        footer{
+            background-color: black;
+            padding:10px;
+            text-align: center;
+            color:white
+        }
+        @media(max-width:600px){
+            section{
+                -webkit-flext-direction:column;
+                flex-direction:column;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Planets</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>Header Title</h1>
+            <p>The Planets, order of their distance outwards</p>
+        </article>
+        <article>
+            <h1>Solar System</h1>
+            <p>hgjsdfgkjshdgfkjsdjfgskdjhfgjshgdfkjhsgjfhgJJDFHGFGJHDSGFJHSGFKJDSHGFKJHDSGF</p>
+        </article>
+    </section>
+    <footer>
+      <p>CopyRight[2022]</p>
+    </footer>
+</body>
+</html>
